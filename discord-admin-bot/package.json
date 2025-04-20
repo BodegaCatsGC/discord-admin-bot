@@ -1,0 +1,17 @@
+{
+  "name": "discord-admin-bot",
+  "version": "1.0.0",
+  "description": "A Discord.js v14 bot for admins to send custom messages and embeds via slash commands and modals",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "deploy": "node deploy-commands.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.0.0",
+    "@discordjs/rest": "^1.0.0",
+    "discord-api-types": "^0.37.0",
+    "dotenv": "^16.0.0"
+  }
+}
