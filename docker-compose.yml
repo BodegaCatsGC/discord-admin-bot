@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  discord-admin-bot:
+    build: .
+    container_name: discord-admin-bot
+    env_file:
+      - .env
+    restart: unless-stopped
+    command: npm start
