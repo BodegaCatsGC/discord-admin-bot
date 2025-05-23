@@ -11,7 +11,7 @@ for (const file of fs.readdirSync('./commands').filter(f => f.endsWith('.js'))) 
 
 const rest = new REST().setToken(process.env.DISCORD_TOKEN);
 await rest.put(
-  Routes.applicationGuildCommands(process.env.CLIENT_ID, process.env.GUILD_ID),
+  Routes.applicationGuildCommands(process.env.DISCORD_CLIENT_ID, process.env.DISCORD_GUILD_ID),
   { body: commands }
 );
 

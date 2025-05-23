@@ -1,6 +1,6 @@
 # Dockerfile for Discord Admin Message Bot
 # Use official Node.js 16 LTS image
-FROM node:16
+FROM node:20
 
 # Create app directory
 WORKDIR /app
