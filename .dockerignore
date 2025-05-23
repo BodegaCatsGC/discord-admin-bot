@@ -5,5 +5,4 @@ npm-debug.log
 .gitignore
 docker-compose*.yml
 docker-compose*.yaml
-.env
 discord-admin-bot.zip
